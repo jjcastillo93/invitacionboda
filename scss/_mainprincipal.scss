@@ -1,0 +1,52 @@
+.encabezado{
+    width: 100%;
+    position:fixed;
+}
+.logoInvitacion{
+    width: 3%;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+.mainPrincipal{
+    width: 100%;
+}
+.fondoMain{
+    width: 100%;
+    height:90vh;
+    background-image: url(../assets/img/fondocatyyjuan.jpg);
+    background-position:top;
+    background-size: cover;
+}
+.titulo{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 3vh;
+}
+.contenido{
+    text-align: center;
+    width: 50vh;
+}
+@media (max-width: 950px){
+    .logoInvitacion{
+        width: 15%;
+        margin-top: 0.5vh;
+        margin-bottom: 0.5vh;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    }
+@media (max-width: 500px){
+.contenido{
+    text-align: center;
+    width: 30vh;
+}
+p{
+    font-size: 1.5rem;
+}
+.logoInvitacion{
+    width: 15%;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+}
